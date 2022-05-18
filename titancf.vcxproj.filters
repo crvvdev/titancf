@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source\Hacks">
+      <UniqueIdentifier>{19ddc720-8a12-4450-bd88-c26517778ed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Hacks\Aim">
+      <UniqueIdentifier>{9959f819-c5bf-4e26-a98e-b798465f4eba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Hacks\Visual">
+      <UniqueIdentifier>{f7445f05-2285-44cb-8aeb-3ca0f7e9de2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Hacks\Memory">
+      <UniqueIdentifier>{809699b6-ae9e-420e-9591-1da7de26a4bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Menu">
+      <UniqueIdentifier>{cf22a4ba-de03-44b3-b87c-ac9f0bba8300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Menu\ImGUI">
+      <UniqueIdentifier>{e84645be-8c3c-44b7-a93e-cd5c6cfc1cec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Misc">
+      <UniqueIdentifier>{87fc7e95-027a-456e-8dd6-1de8866e5478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Misc\Hook">
+      <UniqueIdentifier>{7feda471-d0f5-4c99-913e-982496869dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Misc\Engine">
+      <UniqueIdentifier>{5048aedf-ae10-4c79-b899-5e395354b36d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Misc\Others">
+      <UniqueIdentifier>{ad0cadad-167c-4319-84cc-e89fe11b56e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Misc\Bypass">
+      <UniqueIdentifier>{8fe2b10b-882a-43e3-821e-4aede6702cc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Render">
+      <UniqueIdentifier>{8b38e489-d604-44a7-9121-924e80abf193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config">
+      <UniqueIdentifier>{c504d92f-5a85-4d1b-a988-9059b2914b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config\Json">
+      <UniqueIdentifier>{b7da1217-637c-4b1d-8240-e1b30ffeef86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CodeVM">
+      <UniqueIdentifier>{afeed801-ec3a-4efb-90c0-f8e0ddcd64df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\spectrum.cpp">
+      <Filter>Source\Menu\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Source\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering.cpp">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigSys.cpp">
+      <Filter>Source\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonCPP\json\json_reader.cpp">
+      <Filter>Source\Config\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonCPP\json\json_value.cpp">
+      <Filter>Source\Config\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonCPP\json\json_writer.cpp">
+      <Filter>Source\Config\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\loxlib\BreakpointManager.cpp">
+      <Filter>Source\Misc\Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui.cpp">
+      <Filter>Source\Menu\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_draw.cpp">
+      <Filter>Source\Menu\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_impl_dx9.cpp">
+      <Filter>Source\Menu\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_impl_win32.cpp">
+      <Filter>Source\Menu\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_widgets.cpp">
+      <Filter>Source\Menu\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Source\Hacks\Aim</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger.cpp">
+      <Filter>Source\Hacks\Aim</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>Source\Hacks\Visual</Filter>
+    </ClCompile>
+    <ClCompile Include="Radar.cpp">
+      <Filter>Source\Hacks\Visual</Filter>
+    </ClCompile>
+    <ClCompile Include="ZM.cpp">
+      <Filter>Source\Hacks\Visual</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source\Misc\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Source\Misc\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>Source\Misc\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Source\Hacks\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="ACHook.cpp">
+      <Filter>Source\Misc\Bypass</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes.cpp">
+      <Filter>Source\Misc\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSys.cpp">
+      <Filter>Source\Misc\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="CRC32.cpp">
+      <Filter>Source\Misc\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="cGlobals.cpp">
+      <Filter>Source\Misc\Others</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImGUI\spectrum.h">
+      <Filter>Source\Menu\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.hpp">
+      <Filter>Source\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Configs.hpp">
+      <Filter>Source\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering.hpp">
+      <Filter>Source\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDK.hpp">
+      <Filter>Source\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigSys.hpp">
+      <Filter>Source\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonCPP\json\allocator.h">
+      <Filter>Source\Config\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonCPP\json\assertions.h">
+      <Filter>Source\Config\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonCPP\json\autolink.h">
+      <Filter>Source\Config\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonCPP\json\config.h">
+      <Filter>Source\Config\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonCPP\json\features.h">
+      <Filter>Source\Config\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonCPP\json\forwards.h">
+      <Filter>Source\Config\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonCPP\json\json.h">
+      <Filter>Source\Config\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonCPP\json\json_tool.h">
+      <Filter>Source\Config\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonCPP\json\reader.h">
+      <Filter>Source\Config\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonCPP\json\value.h">
+      <Filter>Source\Config\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonCPP\json\version.h">
+      <Filter>Source\Config\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonCPP\json\writer.h">
+      <Filter>Source\Config\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\loxlib\BreakpointManager.hpp">
+      <Filter>Source\Misc\Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\loxlib\hookmanager.hpp">
+      <Filter>Source\Misc\Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imconfig.h">
+      <Filter>Source\Menu\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui.h">
+      <Filter>Source\Menu\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_impl_dx9.h">
+      <Filter>Source\Menu\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_impl_win32.h">
+      <Filter>Source\Menu\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_internal.h">
+      <Filter>Source\Menu\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_rectpack.h">
+      <Filter>Source\Menu\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_textedit.h">
+      <Filter>Source\Menu\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_truetype.h">
+      <Filter>Source\Menu\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.hpp">
+      <Filter>Source\Hacks\Aim</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger.hpp">
+      <Filter>Source\Hacks\Aim</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.hpp">
+      <Filter>Source\Hacks\Visual</Filter>
+    </ClInclude>
+    <ClInclude Include="Radar.hpp">
+      <Filter>Source\Hacks\Visual</Filter>
+    </ClInclude>
+    <ClInclude Include="ZM.hpp">
+      <Filter>Source\Hacks\Visual</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.hpp">
+      <Filter>Source\Misc\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes.hpp">
+      <Filter>Source\Misc\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgIDs.hpp">
+      <Filter>Source\Misc\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.hpp">
+      <Filter>Source\Misc\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.hpp">
+      <Filter>Source\Misc\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.hpp">
+      <Filter>Source\Misc\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.hpp">
+      <Filter>Source\Hacks\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Protection.hpp">
+      <Filter>Source\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ACHook.hpp">
+      <Filter>Source\Misc\Bypass</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeVM\VirtualizerSDK.h">
+      <Filter>Source\CodeVM</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeVM\VirtualizerSDK_BorlandC_inline.h">
+      <Filter>Source\CodeVM</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeVM\VirtualizerSDK_CustomVMs.h">
+      <Filter>Source\CodeVM</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeVM\VirtualizerSDK_CustomVMs_BorlandC_inline.h">
+      <Filter>Source\CodeVM</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeVM\VirtualizerSDK_CustomVMs_GNU_inline.h">
+      <Filter>Source\CodeVM</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeVM\VirtualizerSDK_CustomVMs_ICL_inline.h">
+      <Filter>Source\CodeVM</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeVM\VirtualizerSDK_CustomVMs_LCC_inline.h">
+      <Filter>Source\CodeVM</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeVM\VirtualizerSDK_CustomVMs_VC_inline.h">
+      <Filter>Source\CodeVM</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeVM\VirtualizerSDK_GNU_inline.h">
+      <Filter>Source\CodeVM</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeVM\VirtualizerSDK_ICL_inline.h">
+      <Filter>Source\CodeVM</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeVM\VirtualizerSDK_LCC_inline.h">
+      <Filter>Source\CodeVM</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeVM\VirtualizerSDK_VC_inline.h">
+      <Filter>Source\CodeVM</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSys.hpp">
+      <Filter>Source\Misc\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="3rt\xorstr.hpp">
+      <Filter>Source\Misc\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC32.hpp">
+      <Filter>Source\Misc\Others</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="JsonCPP\json\json_valueiterator.inl">
+      <Filter>Source\Config\Json</Filter>
+    </None>
+  </ItemGroup>
+</Project>
